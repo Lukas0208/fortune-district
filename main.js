@@ -1,5 +1,5 @@
-import { BOARD } from './game/board.js';
-import { formatMoney, getActivePlayer, getPortfolioValue, getRent, getTileOwner, groupIsComplete } from './game/engine.js';
+import { BOARD } from './src/game/board.js';
+import { formatMoney, getActivePlayer, getPortfolioValue, getRent, getTileOwner, groupIsComplete } from './src/game/engine.js';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const app = $('#app');
